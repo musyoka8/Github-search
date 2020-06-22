@@ -14,6 +14,9 @@ import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 import { HomeComponent } from './home/home.component';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { DateCountPipe } from './date-count.pipe';
+import { NavbarComponent } from './navbar/navbar.component';
+import { NotFoundComponent } from './Not-found/not-found/not-found.component';
 
 
 @NgModule({
@@ -26,7 +29,10 @@ import { SearchFormComponent } from './search-form/search-form.component';
     Repository,
     RepoProfileComponent,
     HomeComponent,
-    SearchFormComponent
+    SearchFormComponent,
+    DateCountPipe,
+    NavbarComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
