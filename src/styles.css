@@ -1,1 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.css";
+body{
+    background: url('../src/assets/loop.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../src/assets/loop.jpg')center/ cover no-repeat fixed;
+}
