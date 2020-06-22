@@ -1,1 +1,14 @@
-<p>repo-profile works!</p>
+<div class="col-md-3 mb-4 " *ngFor="let repo of repos" >
+    <div class="card h-100" >
+        <div class="card-header">
+            {{repo.name}}
+        </div>
+        <div  class="card-body">
+            {{repo.description}}
+        </div>
+        <div  class="card-footer">
+                <a href="{{repo.html_url}}" target="_blank" class="btn btn-success">View this project on Github</a>
+        </div>
+    </div>
+
+</div>
