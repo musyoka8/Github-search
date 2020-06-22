@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { HighlightDirective } from './highlight.directive';
 import { TimeCountPipe } from './time-count.pipe';
+import { UserComponent } from './User-profile/user/user.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
+import { RepoProfileComponent } from './repo-profile/repo-profile.component';
 
 
 @NgModule({
@@ -14,7 +17,10 @@ import { TimeCountPipe } from './time-count.pipe';
     AppComponent,
     LandingPageComponent,
     HighlightDirective,
-    TimeCountPipe
+    TimeCountPipe,
+    UserComponent,
+    UserProfileComponent,
+    RepoProfileComponent
   ],
   imports: [
     BrowserModule,
