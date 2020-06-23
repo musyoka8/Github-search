@@ -8,7 +8,6 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { HighlightDirective } from './highlight.directive';
 import { TimeCountPipe } from './time-count.pipe';
 // import { UserProfileComponent } from './user-profile/user-profile.component';
-import { Repository } from './repository';
 import { RepoProfileComponent } from './repo-profile/repo-profile.component';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
@@ -26,7 +25,6 @@ import { NotFoundComponent } from './Not-found/not-found/not-found.component';
     HighlightDirective,
     TimeCountPipe,
     // UserProfileComponent,
-    // Repository,
     RepoProfileComponent,
     HomeComponent,
     SearchFormComponent,

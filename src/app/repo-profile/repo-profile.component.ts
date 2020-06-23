@@ -9,7 +9,7 @@ export class RepoProfileComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
