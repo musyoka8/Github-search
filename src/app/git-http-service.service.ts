@@ -3,9 +3,6 @@ import { User } from './user';
 import { Repository } from './repository';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment';
-import { resolve } from 'dns';
-import { rejects } from 'assert';
-
 
 
 @Injectable({
@@ -16,8 +13,8 @@ export class GitHttpServiceService {
   repo:Repository;
 
   constructor(public http:HttpClient) { 
-    this.user = new User('','','',0,0,new Date,0,'');
-    this.repo = new Repository('', '', '','');
+    this.user = new User('','','','','',0,0,new Date,0,'');
+    this.repo = new Repository('', '', '',);
   }
   searchUsers(searchTerm:string){
     console.log(searchTerm)
